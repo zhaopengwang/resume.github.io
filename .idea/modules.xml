@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HTML5CSS3/.idea/HTML5CSS3.iml" filepath="$PROJECT_DIR$/../HTML5CSS3/.idea/HTML5CSS3.iml" />
+      <module fileurl="file://D:/html自学练习/.idea/html自学练习.iml" filepath="D:/html自学练习/.idea/html自学练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/resume.iml" filepath="$PROJECT_DIR$/.idea/resume.iml" />
+    </modules>
+  </component>
+</project>

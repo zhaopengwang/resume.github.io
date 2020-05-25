@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e1e0c7;
+    font-family: "Times New Roman","Times","serif";
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+
+
+/***********header_wrapper***********/
+
+#header_wrapper header{
+
+    width: 1000px;
+    height: 240px;
+}
+#header_wrapper div.contact img{
+    width: 1000px;
+    height: 240px;
+}
+#header_wrapper div.contact{
+    width: 100%;
+    height: 240px;
+    background-image: url("images/header_bg_img.jpg");
+    display: inline-block;
+}
+#header_wrapper div.xinxi{
+    margin-top: 30px;
+}
+#header_wrapper div.contact div.xinxi,
+#header_wrapper div.contact h1,
+#header_wrapper div.contact p,
+#header_wrapper div.contact a,
+#header_wrapper div.contact span,
+#header_wrapper div.contact time{
+    background: transparent;
+    color: #fff;
+}
+#header_wrapper div.contact h1{
+    padding-bottom: 20px;
+}
+#header_wrapper div.contact p, span{
+    line-height: 28px;
+    font-size: 24px;
+}
+#header_wrapper div.contact span{
+    padding-right: 14px;
+}
+
+#header_wrapper div.contact div.xinxi{
+    float: right;
+    padding-right: 20px;
+}
+#header_wrapper div#touxiang{
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    background: transparent;
+    margin-left: 100px;
+
+}
+#header_wrapper div#touxiang img{
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    border: none;
+}
+
+/******************body_wrapper*********************/
+
+body h1,ul,li,time,span{
+    background-color: transparent;
+}
+
+/***************nav*********************/
+div#body_wrapper nav{
+    height: 80px;
+    vertical-align: top;
+}
+div#body_wrapper nav li{
+    display: inline-block;
+    border-right: solid 1px #d7d5b9;
+    box-sizing: border-box;
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    padding-top: 22px;
+}
+div#body_wrapper nav li:last-child{
+    border-right: none;
+}
+div#body_wrapper nav li:hover{
+    background-color: #d7d5b9;
+    text-shadow: 5px 5px 5px white;
+
+    -webkit-transition: text-shadow 0.5s linear;
+    -moz-transition: text-shadow 0.5s linear;
+    -o-transition: text-shadow 0.5s linear;
+    transition: text-shadow 0.5s linear;
+
+    -webkit-animation-name:navhover;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+
+    -moz-animation-name: navhover;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in-out;
+
+    -o-animation-name: navhover;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: ease-in-out;
+
+    animation-name:navhover;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes navhover{
+    0% {
+        transform: rotate(0deg) scale(1, 1);
+        opacity: 0.8;
+        border-radius: 1px;
+    }
+    40% {
+        transform: rotate(45deg) scale(2, 2);
+        opacity: 0.5;
+        border-radius: 100px;
+    }
+    60% {
+        transform: rotate(0deg) scale(1.5, 1.5);
+        opacity: 0.2;
+        border-radius: 200px;
+    }
+    60% {
+        transform: rotate(-15deg) scale(0.5, 0.5);
+        opacity: 0.9;
+        border-radius: 100%;
+    }
+}
+@-moz-keyframes navhover{
+    0% {
+        transform: rotate(0deg) scale(1, 1);
+        opacity: 0.8;
+        border-radius: 1px;
+    }
+    40% {
+        transform: rotate(45deg) scale(2, 2);
+        opacity: 0.5;
+        border-radius: 100px;
+    }
+    60% {
+        transform: rotate(0deg) scale(1.5, 1.5);
+        opacity: 0.2;
+        border-radius: 200px;
+    }
+    60% {
+        transform: rotate(-15deg) scale(0.5, 0.5);
+        opacity: 0.9;
+        border-radius: 100%;
+    }
+}
+@-o-keyframes navhover {
+    0% {
+        transform: rotate(0deg) scale(1, 1);
+        opacity: 0.8;
+        border-radius: 1px;
+    }
+    40% {
+        transform: rotate(45deg) scale(2, 2);
+        opacity: 0.5;
+        border-radius: 100px;
+    }
+    60% {
+        transform: rotate(0deg) scale(1.5, 1.5);
+        opacity: 0.2;
+        border-radius: 200px;
+    }
+    60% {
+        transform: rotate(-15deg) scale(0.5, 0.5);
+        opacity: 0.9;
+        border-radius: 100%;
+    }
+}
+@-ms-keyframes navhover {
+    0% {
+        transform: rotate(0deg) scale(1, 1);
+        opacity: 0.8;
+        border-radius: 1px;
+    }
+    40% {
+        transform: rotate(45deg) scale(2, 2);
+        opacity: 0.5;
+        border-radius: 100px;
+    }
+    60% {
+        transform: rotate(0deg) scale(1.5, 1.5);
+        opacity: 0.2;
+        border-radius: 200px;
+    }
+    60% {
+        transform: rotate(-15deg) scale(0.5, 0.5);
+        opacity: 0.9;
+        border-radius: 100%;
+    }
+}
+
+
+div#body_wrapper nav li a{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+    background-color: transparent;
+}
+
+
+/***************about*********************/
+
+div#body_wrapper div#about{
+    background-color: #d7d5b9;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    line-height: 38px;
+    font-size: 18px;
+    word-wrap:break-word;
+    word-break:normal;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+div#body_wrapper h1{
+    line-height: 80px;
+}
+
+/***************Education*********************/
+div#body_wrapper div#Education{
+    background-color: #d7d5b9;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+div#Education div{
+    background-color: #d7d5b9;
+    display: inline-block;
+}
+div#Education li{
+    display: inline-block;
+    width: 960px;
+    line-height: 32px;
+}
+div#Education li:first-child{
+    margin-bottom: 15px;
+}
+div#Education li time{
+    float: right;
+}
+div#Education div span{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/***************Skills*********************/
+div#body_wrapper div#Skills{
+    background-color: #d7d5b9;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    word-wrap:break-word;
+    word-break:normal;
+    text-align: justify;
+    font-size: 18px;
+}
+div#Skills li{
+    display: inline-block;
+    width: 960px;
+    line-height: 38px;
+}
+div#Skills li:before{
+    content: url("images/1.png");
+    display: inline-block;
+}
+div#Skills li span{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
