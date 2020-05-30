@@ -8,7 +8,18 @@
     width: 1000px;
     margin:0 auto;
 }
-
+div.totop{
+    float: right;
+    position: fixed;
+    z-index: 999;
+    left: 50%;
+    top: 85%;
+    margin-left: 530px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-image: none;
+}
 
 
 
